@@ -7,7 +7,7 @@ def take_a_number(line, name)
 end
 
 def line(line)
-  display_line =[]
+  # display_line =[]
   if line.length==0
     puts"The line is currently empty."
   else
