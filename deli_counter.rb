@@ -14,6 +14,6 @@ def line(line)
     line.each_with_index do |val, index|
       display_line.push(" #{index+1}. #{val}")
     end
-    puts "The line is currently:#{display_line.to_s}"
+    puts "The line is currently:#{display_line.to_s()}"
   end
 end
