@@ -17,3 +17,7 @@ def line(line)
     puts "The line is currently:#{display_line}"
   end
 end
+
+def now_serving
+  
+end
