@@ -12,7 +12,7 @@ def line(line)
     puts"The line is currently empty."
   else
     line.each_with_index do |val, index|
-      display_line.push(" #{x.index+1}. #{x}")
+      display_line.push(" #{index+1}. #{val}")
     end
     puts "The line is currently:#{display_line}"
   end
