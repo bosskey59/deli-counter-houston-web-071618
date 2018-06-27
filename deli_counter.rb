@@ -12,7 +12,8 @@ def line(line)
     puts"The line is currently empty."
   else
     line.each do |x|
-      display_line.push("#{x.index+1}. #{x}")
+      display_line.push(" #{x.index+1}. #{x}")
     end
+    puts "The line is currently:#{display_line}"
   end
 end
